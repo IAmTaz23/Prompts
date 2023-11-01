@@ -16,6 +16,23 @@ function currentHour() {
 }
 
 // 3. Create a button that alerts you and says "Ouch!" when you click it (hint: use a function)
-
+function myFunction() {
+    alert("Ouch!")
+}
 
 // 4. Create a button that when clicked, gets the users name from a text field, and alerts "Hello (name)!"
+
+function getName(){
+    let nameField = document.getElementById("name-input")
+    let name = nameField.value
+    alert(`Hello ${name}!`)
+}
+
+
+
+
+
+
+
+
+
